@@ -1,0 +1,9 @@
+rest_test_get_posts:
+  path:     /posts
+  defaults: { _controller: RestBundle:Default:getPosts }
+  methods: [GET]
+
+rest_test_add_posts:
+  path:     /posts
+  defaults: { _controller: RestBundle:Default:addPosts }
+  methods: [POST]

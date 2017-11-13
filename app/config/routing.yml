@@ -1,0 +1,3 @@
+rest_test_app:
+    resource: "@RestBundle/Resources/config/routing.yml"
+    prefix:   /
